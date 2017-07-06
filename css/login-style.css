@@ -1,8 +1,11 @@
+/*----------General Rules----------*/
 
-/*----------Tablet view (768px++)----------*/
-
-	body {
+body {
 		color:#6a6b6f;
+	}
+
+	.form-horizontal .control-label {	    
+	    font-size: 20px;
 	}
 	
 	.footer {
@@ -10,6 +13,7 @@
 		right: 0;
     	left: 0;
     	z-index: 1030;
+    	position:static;
 	}
 
 	header, .footer {
@@ -19,34 +23,18 @@
 
 	.form-control {   
 	    font-size: 25px;
-	}
-
-	.alert-top {
-		top: 145px;
-	}
-
-	.form-horizontal {
-		margin-left: 30px;		
-	}
-
-	.top-position {
-		top: 0;	
-	} /*form-position*/
-
-	.image-top {
-		top: 0;
-	}
+	}	
 
 	.alert-danger {    
-	    font-size: 20px;
+	    font-size: 16px;
 	    text-align: center;
-	} /*change*/
+	    padding-top: 10px;
+    	padding-bottom: 10px;
+	} 
 
-	.alert {
-		border-radius: 35px;
+	.alert {		
 		background: #fff;
-	    border: #fff;
-	    color: #fff;
+	    border: #fff;	    
 	}
 
 	.btn-lg {
@@ -76,9 +64,9 @@
 	}
 
 	.modal-dialog {
-		width: 42%;
-		margin-top: 95px;    	
-    	margin-right: 43px;
+		width: 95%;
+		margin-top: 230px;
+    	margin-right: 25px;
 	    margin-bottom: 0px;
 	}
 
@@ -90,176 +78,86 @@
 		margin: 0 auto;
 	}
 
+/*----------Mobile view (768px++)----------*/
+@media (min-width: 768px) {	
+
+	.footer {		
+    	position:fixed;
+	}
+	
+	.modal-dialog {
+		width: 77.5%;
+		margin-top: 230px;
+    	margin-right: 25px;	   
+	}	
+
+	.alert-danger {	    
+	    padding-top: 15px;
+    	padding-bottom: 15px;
+	} 
+}
+
 /*----------Tablet view (970px++)----------*/
 @media (min-width: 970px) {
 
-	body {
-		color:#6a6b6f;
-	}
-
-	.footer {
-		position:fixed;
-	}
-
 	.container {
 		width: 95%;
-	}
-
-	header, .footer {
-	  	background-color:#00bae4;
-	  	padding:75px 0 0 75px; 
-	}
-
-	.form-control {   
-	    font-size: 25px;
-	}
-
-	.alert-top {
-		top: 145px;
-	}
+	}	
 
 	.form-horizontal {
 		margin-left: 30px;		
 	}
 
 	.top-position {
-		top: 75px;	
+		margin-top: 10.5%;	
 	} /*form-position*/
 
 	.image-top {
-		top: 10px;
+		margin-top: 7%;
 	}
 
 	.alert-danger {    
 	    font-size: 20px;
 	    text-align: center;
-	} /*change*/
-
-	.alert {
-		border-radius: 35px;
-		background: #fff;
-	    border: #fff;
-	    color: #fff;
-	}
-
-	.btn-lg {
-	    padding: 16px 26px;
-	    font-size: 25px;
-	    font-weight: 900;    
-	    border-radius: 25px;
-	}
-
-	input[type=checkbox]{
-		width: 22px;
-	    height: 22px;
-	}
-
-	.remember-me {
-		margin-left: 15px;
-	    font-size: 20px;
-	    margin-bottom: 0px;
-	} /*Remember me text styling*/
-
-	.modal-body {
-		margin-bottom:0;
-	}
+	} /*change*/		
 
 	.modal-dialog {
 		width: 42%;
 		margin-top: 95px;    	
-    	margin-right: 43px;
-	    margin-bottom: 0px;
+    	margin-right: 43px;	    
 	}
-
-	.e-glyph, .p-glyph {
-		display:none;
-	}
-
 }
 
 /*----------Desktop view (1200px++)----------*/
 
-@media (min-width: 1200px) {
-
-	body {
-		color:#6a6b6f;
-	}
-
-	.container {
-		width: 95%;
-	}
-
-	header, .footer {
-	  	background-color:#00bae4;
-	  	padding:75px 0 0 75px; 
-	}
+@media (min-width: 1200px) {	
 
 	.vertical-align {
 	    display: flex;
 	    align-items: center;
-	} /*align to center in the row*/
-
-	.form-control {   
-	    font-size: 25px;
-	}
-
-	.alert-top {
-		top: 145px;
-	}
+	} /*align to center in the row*/	
 
 	.form-horizontal {
 		margin-left: 30px;		
 	}
 
 	.top-position {
-		top: 75px;	
+		margin-top: 12%;	
 	} /*form-position*/
 
 	.image-top {
-		top: 10px;
+		margin-top: 1.5%;
 	}
 
 	.alert-danger, .modal-body {    
 	    font-size: 24px;
 	    text-align: center;
 	    margin: 0 auto;
-	}
-
-	.alert {
-		border-radius: 35px;
-		background: #fff;
-	    border: #fff;
-	    color: #fff;
-	}
-
-	.btn-lg {
-	    padding: 16px 26px;
-	    font-size: 25px;
-	    font-weight: 900;    
-	    border-radius: 25px;
-	}
-
-	input[type=checkbox]{
-		width: 22px;
-	    height: 22px;
-	}
-
-	.remember-me {
-		margin-left: 15px;
-	    font-size: 20px;
-	    margin-bottom: 0px;
-	} /*Remember me text styling*/
+	}		
 
 	.modal-dialog {
 		margin-right: 85px;
-	    margin-top: 115px;
-	    margin-bottom: 0px;
+	    margin-top: 115px;	    
 	}
-
-	.e-glyph, .p-glyph {
-		display:none;
-	}
-
-
 }
 
