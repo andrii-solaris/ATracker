@@ -1,5 +1,6 @@
 /*----------General Rules----------*/
 
+/*----------Index Page----------*/
 body {
 		color:#6a6b6f;
 	}
@@ -78,7 +79,62 @@ body {
 		margin: 0 auto;
 	}
 
+/*----------Groups/Students Main-----------*/
+	
+	.ft-grp {
+		bottom:0;
+		right: 0;
+    	left: 0;
+    	z-index: 1030;
+    	position:static;
+	}
+
+	.hd-grp, .ft-grp {
+		background-color:#00bae4;
+		padding:55px 0 0 55px; 
+		}
+
+	.well-sm {
+		color: #474747;
+		margin-top:10px;
+		margin-bottom:10px;
+		background-color: #f5eafe;
+	}
+
+	h1 {    
+	    font-variant: small-caps;
+	    text-align: center;
+	    margin: 0 auto;
+	    font-weight: 600;
+	}
+
+	.gr-st-btn {
+		width: 92.5%;
+    	margin: 0 auto;
+    	display: block;
+    	padding-top: 32px;
+    	padding-bottom: 32px;
+    	margin-bottom: 8px;
+    	font-variant: small-caps;
+	    font-weight: 600;
+	    font-size: 20px;
+	    letter-spacing: 3px
+	}
+
+	.btn-purple { 	   
+	  background-color: #7A1994; 
+	  border-color: #400052;
+	  color:#fff; 
+	} 
+ 
+	.btn-purple:hover, 
+	.btn-purple:focus { 
+	  color:#fff;	  
+	  background-color: #56006d; 	   
+	} 
+
 /*----------Mobile view (768px++)----------*/
+/*----------Index Resonsive----------------*/
 @media (min-width: 768px) {	
 
 	.footer {		
@@ -94,7 +150,38 @@ body {
 	.alert-danger {	    
 	    padding-top: 15px;
     	padding-bottom: 15px;
-	} 
+	}
+
+/*----------Groups/Students Responsive-----------*/
+
+	.ft-grp {		
+    	position:fixed;
+	}
+
+	h1 {    
+    	font-size: 65px;
+	}
+
+	.gr-st-btn {		
+    	padding-top: 55px;
+    	padding-bottom: 55px; 
+    	margin-bottom: 15px;
+    	font-size: 30px;
+    	font-weight: 900;   	   	
+	}
+
+	.sm-left {
+		padding-right:0;
+	}
+
+	.sm-right {
+		padding-left:0;
+	}
+
+	.sm-center {
+		padding-right:7px;
+		padding-left:7px;
+	}
 }
 
 /*----------Tablet view (970px++)----------*/
@@ -159,5 +246,11 @@ body {
 		margin-right: 85px;
 	    margin-top: 115px;	    
 	}
+
+/*--------Students Responsive-----------*/
+
+	.lg-b {
+			letter-spacing: inherit; 
+		}
 }
 
