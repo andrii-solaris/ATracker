@@ -85,4 +85,11 @@
 	}
 
 }
-	
+
+
+	/*--------Students Page-----------*/
+	@media (min-width: 1200px) {	
+		.lg-b {
+			letter-spacing: inherit; 
+		}
+	}
