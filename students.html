@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "en" ng-app = "">
+<html lang = "en" ng-app = "students-list">
 <head>
 <title>JCC | Students</title>
 <!--Bootstrap links-->
@@ -11,11 +11,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/login-style.css">
-  <script src="js/login-form.js"></script>
+  <script src="js/controller.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/jabiru-logo.png">
 </head>
-<body>
+<body ng-controller = "students-controller">
      <header>
      </header>
     <div class = "container">
@@ -24,16 +24,14 @@
           <div class="well well-sm">
             <h1>Tell Us Who You Are </h1>
           </div>
-      </div>
-      <div ng-init = "studentNames = [{name:'John',surname:'Doe',class:'primary'},{name:'Joe',surname:'Bloggs',class:'success'}, 
-                                      {name:'John Q.',surname:'Doe', class:'purple'}, {name:'Mary',surname:'Major', class:'info'}, {name:'Richard',surname:'Miles', class:'warning'}, {name:'Rudolf',surname:'Lingers',class:'danger'},
-                                      {name:'Alan',surname:'Smithee',class:'primary'}, {name:'Luther',surname:'Blissett',class:'success'}, {name:'Tommy',surname:'Atkins',class:'purple'}, {name:'Richmond',surname:'Way',class:'info'}, {name:'Bobby',surname:'Atkins',class:'warning'}, {name:'Marianna',surname:'Rogers',class:'danger'}]">
-      </div>
+      </div>     
       <div class = "row">        
-        <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat = "student in studentNames">
+        <div class = "col-xs-12 col-sm-4 col-md-3 col-lg-2" ng-repeat = "student in records">
             <button type="button" class="btn btn-{{student.class}} btn-lg gr-st-btn lg-b">{{student.name + ' ' + student.surname}}</button>
         </div>      
-    </div>     
+    </div>
+  </div>
+  </div>     
     <div class = "footer"> 
     </div>
 </body>
