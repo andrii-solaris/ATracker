@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JCC | PIN</title>
+<!--Bootstrap links-->
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/login-style.css">
+  <script src="js/login-form.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/jabiru-logo.png">
+</head>
+<body>
+     <header class = "hd-grp">
+     </header>
+     <!-- Modal -->
+  <div id="WrongPINAlert" class="modal fade" role="dialog">
+    <div class="modal-dialog pin-alert">
+      <!-- Modal content-->
+       <div class="modal-content">
+          <div class="modal-body alert alert-danger">
+            <strong>Error!</strong> Check your PIN and try once more!
+          </div>       
+        </div>      
+      </div>
+    </div>
+  </div>
+    <div class = "container container-pin">
+      <div class = "row">
+        <div class = "col-xs-12">
+          <div class="well well-sm well-pin">
+            <h1 class = "greet">Hi, John Doe! </h1>
+            <p class = "call-to-pin">Please, enter PIN</p>
+          </div>
+      </div>
+      <div class="form-group">
+      <div class = "row">
+        <div class = "col-xs-12">
+          <div class="well well-sm well-pin-input">
+             <input type="text" maxlength = "4"  pattern="[0-9]{10}" class="form-control input-lg input-pin" id="pin">
+          </div>
+          </div>
+      </div>      
+      <div class = "row">
+        <div class = "col-xs-4 dial-left"> 
+          <button type="button" class="btn btn-success btn-lg dial-btn">1</button>
+      </div>
+      <div class = "col-xs-4 dial-center">
+          <button type="button" class="btn btn-success btn-lg dial-btn">2</button>
+      </div>
+      <div class = "col-xs-4 dial-right">
+          <button type="button" class="btn btn-success btn-lg dial-btn">3</button>
+      </div>       
+    </div>
+    <div class = "row">
+        <div class = "col-xs-4 dial-left"> 
+          <button type="button" class="btn btn-success btn-lg dial-btn">4</button>
+      </div>
+      <div class = "col-xs-4 dial-center">
+          <button type="button" class="btn btn-success btn-lg dial-btn">5</button>
+      </div>
+      <div class = "col-xs-4 dial-right">
+          <button type="button" class="btn btn-success btn-lg dial-btn">6</button>
+      </div>       
+    </div>
+    <div class = "row">
+        <div class = "col-xs-4 dial-left"> 
+          <button type="button" class="btn btn-success btn-lg dial-btn">7</button>
+      </div>
+      <div class = "col-xs-4 dial-center">
+          <button type="button" class="btn btn-success btn-lg dial-btn">8</button>
+      </div>
+      <div class = "col-xs-4 dial-right">
+          <button type="button" class="btn btn-success btn-lg dial-btn">9</button>
+      </div>       
+    </div>
+    <div class = "row">
+        <div class = "col-xs-4 dial-left"> 
+          <button type="button" class="btn btn-success btn-lg dial-btn"><span class="glyphicon glyphicon-arrow-left"></span></button>
+      </div>
+      <div class = "col-xs-4 dial-center">
+          <button type="button" class="btn btn-success btn-lg dial-btn">0</button>
+      </div>
+      <div class = "col-xs-4 dial-right">
+          <button type="submit" class="btn btn-success btn-lg dial-btn" data-toggle="modal" data-target="#WrongPINAlert"><span class="glyphicon glyphicon-ok"></span></button>
+      </div>
+      </div>       
+    </div>
+  </div>  
+</body>
+</html>

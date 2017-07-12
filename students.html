@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en" ng-app = "">
 <head>
 <title>JCC | Students</title>
 <!--Bootstrap links-->
@@ -9,6 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/login-style.css">
   <script src="js/login-form.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,43 +25,14 @@
             <h1>Tell Us Who You Are </h1>
           </div>
       </div>
-      <div class = "row">
-        <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3 lg-b">
-          <button type="button" class="btn btn-warning btn-lg gr-st-btn lg-b">John Doe</button>
+      <div ng-init = "studentNames = [{name:'John',surname:'Doe',class:'primary'},{name:'Joe',surname:'Bloggs',class:'success'}, 
+                                      {name:'John Q.',surname:'Doe', class:'purple'}, {name:'Mary',surname:'Major', class:'info'}, {name:'Richard',surname:'Miles', class:'warning'}, {name:'Rudolf',surname:'Lingers',class:'danger'},
+                                      {name:'Alan',surname:'Smithee',class:'primary'}, {name:'Luther',surname:'Blissett',class:'success'}, {name:'Tommy',surname:'Atkins',class:'purple'}, {name:'Richmond',surname:'Way',class:'info'}, {name:'Bobby',surname:'Atkins',class:'warning'}, {name:'Marianna',surname:'Rogers',class:'danger'}]">
       </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-success btn-lg gr-st-btn lg-b">Jane Roe</button>
-      </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-primary btn-lg gr-st-btn lg-b">Joe Bloggs</button>
-      </div>
-       <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-purple btn-lg gr-st-btn lg-b"> John Q. Public</button>
-      </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-danger btn-lg gr-st-btn lg-b">Mary Major</button>
-      </div>       
-        <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-warning btn-lg gr-st-btn lg-b">Richard Miles</button>
-      </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-info btn-lg gr-st-btn lg-b">Rudolf Lingens</button>
-      </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-primary btn-lg gr-st-btn lg-b">Alan Smithee</button>
-      </div>
-       <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-purple btn-lg gr-st-btn lg-b"> Luther Blissett</button>
-      </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-primary btn-lg gr-st-btn lg-b">Tommy Atkins</button>
-      </div> 
-       <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-purple btn-lg gr-st-btn lg-b"> Richmond Way</button>
-      </div>
-      <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3">
-          <button type="button" class="btn btn-warning btn-lg gr-st-btn lg-b">Bobby Atkins</button>
-      </div>
+      <div class = "row">        
+        <div class = "col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat = "student in studentNames">
+            <button type="button" class="btn btn-{{student.class}} btn-lg gr-st-btn lg-b">{{student.name + ' ' + student.surname}}</button>
+        </div>      
     </div>     
     <div class = "footer"> 
     </div>

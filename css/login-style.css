@@ -99,6 +99,7 @@ body {
 		margin-top:10px;
 		margin-bottom:10px;
 		background-color: #f5eafe;
+		border-radius: 25px;
 	}
 
 	h1 {    
@@ -132,6 +133,79 @@ body {
 	  color:#fff;	  
 	  background-color: #56006d; 	   
 	} 
+
+/*----------PIN MAIN-----------------------*/
+
+	.greet {
+		font-size:28px;
+		font-variant:inherit;
+	}
+
+	.call-to-pin {
+		font-weight: 600;
+		text-align: center;
+	    margin: 0 auto;
+	    color:#d9534f;
+	    font-size: 16px;
+	}
+
+	.dial-btn {		
+    	width: 100%;
+    	margin: 0 auto;
+    	display: block;
+    	padding-top: 32px;
+    	padding-bottom: 32px;
+    	margin-bottom: 8px;    	
+	    font-weight: 600;
+	    font-size: 20px;	    
+	    border-radius:5px;   	   	
+	}
+
+	.container-pin {
+		margin-left: 10px;
+    	margin-right: 10px;
+	}
+
+	.dial-left {
+		padding-right:0;
+	}
+
+	.dial-right {
+		padding-left:0;
+	}
+
+	.dial-center {
+		padding-right:7px;
+		padding-left:7px;
+	}
+
+	.well-pin {
+		border-radius:5px;
+		padding-top: 0px;
+	    padding-bottom: 0px;
+	    margin-bottom: 0px;
+	    background: transparent;
+	    border: solid 0;
+	    margin-top: 7px;				
+	}
+
+	.well-pin-input {
+		border-radius:5px;		
+		background-color: #5cb85c;
+		margin-top: 3px;
+	}
+
+	.input-pin {
+		text-align: center;
+		width: 50%;
+   		margin: 0 auto;
+    	font-size: 52px;
+    	font-weight: 900;
+	}
+
+	.pin-alert {
+		margin-top: 5px;
+	}
 
 /*----------Mobile view (768px++)----------*/
 /*----------Index Resonsive----------------*/
@@ -181,6 +255,21 @@ body {
 	.sm-center {
 		padding-right:7px;
 		padding-left:7px;
+	}
+
+/*----------PIN Responsive-----------------------*/
+	.call-to-pin {
+		font-size: 22px;
+	}
+	.greet {
+		font-size:36px;
+	}
+	.dial-btn {
+		padding-top: 55px;
+    	padding-bottom: 55px; 
+    	margin-bottom: 15px;
+    	font-size: 30px;
+    	font-weight: 900; 
 	}
 }
 
