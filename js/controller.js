@@ -11,13 +11,17 @@ studlist.controller ('students-controller', function($scope){
            			{name:'Ruth',surname:'Watkins',class:'warning'}, {name:'Melvin',surname:'Peters',class:'danger'}];
 });
 
-var login = angular.module('login-page', ['ngRoute']);
-login.controller ('login-controller', function($scope){
+var login = angular.module('login-page', []);
+login.controller ('login-controller', function($scope, $window){
 	$scope.submit = function(){
 		var email = $scope.email;
 		var pwd = $scope.password;
 		if($scope.email == 'example@gmail.com' && $scope.password == '123456' ){
-			$location.path('/group-choice.html');
-		}
+			 $window.location.href = 'group-choice.html'}
+		else { 
+			$(".btn-submit").click(function(){
+			    $(".btn-submit").attr("data-toggle", "modal");
+			});
+		};
 	};
 });
