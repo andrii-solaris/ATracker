@@ -1,6 +1,6 @@
 /*----------General Rules----------*/
 
-/*----------Index Page----------*/
+/*----------Index Page----------*/d
 body {
 		color:#6a6b6f;
 	}
@@ -148,7 +148,7 @@ body {
 	    font-size: 16px;
 	}
 
-	.dial-btn {		
+	.dial-btn, .escape-dial-btn, .submit-dial-btn {		
     	width: 100%;
     	margin: 0 auto;
     	display: block;
@@ -269,7 +269,7 @@ body {
 	.greet {
 		font-size:36px;
 	}
-	.dial-btn {
+	.dial-btn, .submit-dial-btn, .escape-dial-btn {
 		padding-top: 55px;
     	padding-bottom: 55px; 
     	margin-bottom: 15px;
