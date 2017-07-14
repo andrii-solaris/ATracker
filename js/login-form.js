@@ -128,4 +128,14 @@ $(document).ready(function(){
             $(".dial-btn").addClass("disabled");
         }
     });
+
+    $(".escape-dial-btn").click(function(){
+        var existing = $("input:text").val();
+        if (existing.length > 0) {
+            $("input:text").val(existing.slice(0, -1));
+        }
+        if ( $(".dial-btn").hasClass("disabled")){
+            $(".dial-btn").removeClass("disabled");
+        }        
+    });
 });

@@ -148,7 +148,7 @@ body {
 	    font-size: 16px;
 	}
 
-	.dial-btn, .escape-dial-btn, .submit-dial-btn {		
+	.dial-btn, .escape-dial-btn, .submit-dial-btn, .check-btn {		
     	width: 100%;
     	margin: 0 auto;
     	display: block;
@@ -205,6 +205,38 @@ body {
 	.pin-alert {
 		margin-top: 5px;
 	}
+
+	/*-----Check Main------*/
+
+	.well-check {
+		border-radius:5px;		
+		background-color: #00bae4;
+		color:#fff;
+	}
+
+	.greet-check {
+		font-size:23px;
+		font-variant:small-caps;
+	}
+
+	.check-out {
+		display:none;
+	}
+
+	.check-btn {
+		padding-top: 100px;
+    	padding-bottom: 100px;
+    	margin-top: 40px;
+    	margin-bottom: 40px;
+	}
+
+@media (min-width:600px){
+	/*---PIN Responsive---*/
+	.hd-grp-pin {
+		padding-left: 0px;
+    	padding-top: 20px;
+	}
+}
 
 /*----------Mobile view (768px++)----------*/
 /*----------Index Resonsive----------------*/
@@ -270,12 +302,12 @@ body {
 		font-size:36px;
 	}
 	.dial-btn, .submit-dial-btn, .escape-dial-btn {
-		padding-top: 55px;
-    	padding-bottom: 55px; 
+		padding-top: 35px;
+    	padding-bottom: 35px; 
     	margin-bottom: 15px;
     	font-size: 30px;
     	font-weight: 900; 
-	}
+	}	
 }
 
 /*----------Tablet view (970px++)----------*/
@@ -307,6 +339,11 @@ body {
 		margin-top: 95px;    	
     	margin-right: 43px;	    
 	}
+
+/*---------PIN Responsive----------*/
+	.input-pin {    
+    	width: 30%;    
+	}	
 }
 
 /*----------Desktop view (1200px++)----------*/
@@ -354,5 +391,27 @@ body {
 	.gr-st-btn {
 	    font-size: 15px;	   
 	}
+
+/*-------PIN Responsive--------*/
+	
+	.dial-btn, .submit-dial-btn, .escape-dial-btn {
+		padding-top: 25px;
+    	padding-bottom: 25px;     	
+	}
+
+	.greet {
+    	font-size: 30px;
+    	letter-spacing: 2px;
+	}
+
+	.well-pin-input {
+		padding-top: 5px;
+    	padding-bottom: 5px;
+	}
+
+	.container {
+    	width: 70%;
+    	margin: 0 auto;
+	}	
 }
 
