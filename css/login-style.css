@@ -275,6 +275,37 @@ body {
     color: #fff;
 	}
 
+	.popup-false, .popup-true {
+		padding-left: 5px;
+		padding-right: 5px;
+		padding-top: 2px;
+		padding-bottom: 2px;
+		font-size: 20px;
+		font-weight: 700;
+    background: #d9534f;
+    color: #fff;
+	}
+
+	.popup-true {
+		background: #5cb85c;
+	}
+
+	.check-greet {
+		font-weight: 800;
+    border: solid #5cb85c 4px;
+		color: #337ab7;
+	}
+
+	.check-bye {
+		font-weight: 800;
+		border: solid #d9534f 4px;
+		color: #337ab7;
+	}
+
+	.modal-check {
+		margin-top: 125px;
+	}
+
 @media (min-width:600px){
 	/*---PIN Responsive---*/
 	.hd-grp-pin {
@@ -374,8 +405,13 @@ body {
 /*-----Check Responsive-----*/
 
 	.container-check {
-		width: 80%;
+			width: 80%;
     	margin: 0 auto;
+	}
+
+	.modal-check {
+		margin-top: 100px;
+    margin-left: 85px;
 	}
 }
 
@@ -425,12 +461,16 @@ body {
 		width: 75%;
    	}
 
-   	.check-header-name {	    
+   	.check-header-name {
 	    font-size: 30px;
 	}
 
-	.check-header-status {	    
+	.check-header-status {
 	    font-size: 21px;
+	}
+
+	.modal-check {
+		  margin-left: 300px;
 	}
 }
 
@@ -512,8 +552,8 @@ body {
 	}
 /*-----Check Responsive-----*/
 
-	.container-check {
-		width: 60%;
+		.container-check {
+			width: 60%;
    	}
 
    	.check-btn {
@@ -528,4 +568,9 @@ body {
    	.check-header-status {
    		margin-bottom: 0;
    	}
+
+		.modal-check {
+			margin-left: 400px;
+    	margin-top: 90px;
+		}
 }

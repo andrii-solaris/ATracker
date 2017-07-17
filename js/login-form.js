@@ -38,7 +38,7 @@ $(document).ready(function(){
             $(".dial-btn").addClass("disabled");
         }
     });
-    
+
     $("#2").click(function(){
         var existing = $("input:text").val();
         if (existing.length < 4) {
@@ -58,7 +58,7 @@ $(document).ready(function(){
             $(".dial-btn").addClass("disabled");
         }
     });
-    
+
     $("#4").click(function(){
         var existing = $("input:text").val();
         if (existing.length < 4) {
@@ -78,7 +78,7 @@ $(document).ready(function(){
             $(".dial-btn").addClass("disabled");
         }
     });
-    
+
     $("#6").click(function(){
         var existing = $("input:text").val();
         if (existing.length < 4) {
@@ -98,7 +98,7 @@ $(document).ready(function(){
             $(".dial-btn").addClass("disabled");
         }
     });
-    
+
     $("#8").click(function(){
         var existing = $("input:text").val();
         if (existing.length < 4) {
@@ -118,7 +118,7 @@ $(document).ready(function(){
             $(".dial-btn").addClass("disabled");
         }
     });
-    
+
     $("#0").click(function(){
         var existing = $("input:text").val();
         if (existing.length < 4) {
@@ -136,14 +136,36 @@ $(document).ready(function(){
         }
         if ( $(".dial-btn").hasClass("disabled")){
             $(".dial-btn").removeClass("disabled");
-        }        
+        }
     });
 
     $(".btn-in").click(function(){
+          $('#PresenceAlert').modal('show');
+      if ($(".check-status").html() == "At School") {
+          $(".check-alert-text").html("Error! Your status is already </br> <strong class = \"popup-true\">\"At School\"<strong>");
+          $(".modal-body").removeClass("check-greet", "check-bye");
+          $(".button-place").html("");
+      }
+      else {
         $(".check-status").css("background", "#5cb85c").html("At School");
+        $(".check-alert-text").html("Welcome! Hope you enjoy the day!").css("color", "#008000");
+        $(".modal-body").addClass("check-greet").removeClass("check-bye");
+        $(".button-place").html("<hr> <button type=\"button\" class=\"btn btn-primary\">To Group Choice</button>");
+      }
     });
 
     $(".btn-out").click(function(){
-        $(".check-status").css("background", "#d9534f").html("Out of School");
+          $('#PresenceAlert').modal('show');
+      if ($(".check-status").html() == "Out of School") {
+          $(".check-alert-text").html("Error! Your status is already </br> <strong class = \"popup-false\">\"Out of School\"<strong>");
+          $(".modal-body").removeClass("check-bye", "check-greet");
+          $(".button-place").html("");
+      }
+      else {
+         $(".check-status").css("background", "#d9534f").html("Out of School");
+         $(".check-alert-text").html("Bye! Thank you for attending our school!").css("color", "#008000");
+         $(".modal-body").addClass("check-bye").removeClass("check-greet");
+         $(".button-place").html("<hr> <button type=\"button\" class=\"btn btn-primary\">To Group Choice</button>");
+      }
     });
 });
