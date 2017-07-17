@@ -81,9 +81,9 @@ body {
 	.header-p {
 		color:#fff;
 		text-align: center;
-    font-size: 14px;
-    margin: 0;
-    letter-spacing: 3px;
+	    font-size: 14px;
+	    margin: 0;
+	    letter-spacing: 3px;
 		font-variant: small-caps;
 	}
 
@@ -200,7 +200,7 @@ body {
 
 	.well-pin-input {
 		border-radius:5px;
-		background-color: #5cb85c;
+		background-color: rgba(0, 186, 228, 0.3);
 		margin-top: 3px;
 	}
 
@@ -214,6 +214,7 @@ body {
 
 	.pin-alert {
 		margin-top: 5px;
+		margin-left: 2%;
 	}
 
 	/*-----Check Main------*/
@@ -357,6 +358,25 @@ body {
     	font-size: 30px;
     	font-weight: 900;
 	}
+
+	.pin-alert {
+		margin-top: 116px;
+	    margin-left: 80px;
+	    margin-right: 0px;
+	}
+
+	.modal-body-pin {
+		padding-top: 10px;
+	    padding-bottom: 10px;
+	    font-size: 23px;
+	}
+
+/*-----Check Responsive-----*/
+
+	.container-check {
+		width: 80%;
+    	margin: 0 auto;
+	}
 }
 
 /*----------Tablet view (970px++)----------*/
@@ -392,6 +412,25 @@ body {
 /*---------PIN Responsive----------*/
 	.input-pin {
     	width: 30%;
+	}
+
+	.pin-alert {
+		margin-top: 120px;
+    	margin-left: 280px;
+	}
+
+/*-----Check Responsive-----*/
+
+	.container-check {
+		width: 75%;
+   	}
+
+   	.check-header-name {	    
+	    font-size: 30px;
+	}
+
+	.check-header-status {	    
+	    font-size: 21px;
 	}
 }
 
@@ -466,4 +505,27 @@ body {
     	width: 70%;
     	margin: 0 auto;
 	}
+
+	.pin-alert {
+		margin-left: 390px;
+    	margin-top: 105px;
+	}
+/*-----Check Responsive-----*/
+
+	.container-check {
+		width: 60%;
+   	}
+
+   	.check-btn {
+   		padding-top: 45px;
+    	padding-bottom: 45px;
+   	}
+
+   	.check-header-name {
+   		margin-top: 5px;
+   	}
+
+   	.check-header-status {
+   		margin-bottom: 0;
+   	}
 }

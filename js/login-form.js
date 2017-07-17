@@ -138,4 +138,12 @@ $(document).ready(function(){
             $(".dial-btn").removeClass("disabled");
         }        
     });
+
+    $(".btn-in").click(function(){
+        $(".check-status").css("background", "#5cb85c").html("At School");
+    });
+
+    $(".btn-out").click(function(){
+        $(".check-status").css("background", "#d9534f").html("Out of School");
+    });
 });
