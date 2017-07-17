@@ -1,14 +1,14 @@
 /*----------General Rules----------*/
 
-/*----------Index Page----------*/d
+/*----------Index Page----------*/
 body {
 		color:#6a6b6f;
 	}
 
-	.form-horizontal .control-label {	    
+	.form-horizontal .control-label {
 	    font-size: 20px;
 	}
-	
+
 	.footer {
 		bottom:0;
 		right: 0;
@@ -18,29 +18,29 @@ body {
 
 	header, .footer {
 	  	background-color:#00bae4;
-	  	padding:75px 0 0 75px; 
+	  	padding:75px 0 0 0;
 	}
 
-	.form-control {   
+	.form-control {
 	    font-size: 25px;
-	}	
+	}
 
-	.alert-danger {    
+	.alert-danger {
 	    font-size: 16px;
 	    text-align: center;
 	    padding-top: 10px;
     	padding-bottom: 10px;
-	} 
+	}
 
-	.alert {		
+	.alert {
 		background: #fff;
-	    border: #fff;	    
+	    border: #fff;
 	}
 
 	.btn-lg {
 	    padding: 16px 26px;
 	    font-size: 25px;
-	    font-weight: 900;    
+	    font-weight: 900;
 	    border-radius: 25px;
 	}
 
@@ -50,7 +50,7 @@ body {
 	}
 
 	.vertical-align {
-	    display: block;	   
+	    display: block;
 	}
 
 	.remember-me {
@@ -72,14 +72,23 @@ body {
 
 	.e-glyph, .p-glyph {
 		display:none;
-	}	
+	}
 
 	.img-responsive {
 		margin: 0 auto;
 	}
 
+	.header-p {
+		color:#fff;
+		text-align: center;
+    font-size: 14px;
+    margin: 0;
+    letter-spacing: 3px;
+		font-variant: small-caps;
+	}
+
 /*----------Groups/Students Main-----------*/
-	
+
 	.ft-grp {
 		bottom:0;
 		right: 0;
@@ -90,7 +99,8 @@ body {
 
 	.hd-grp, .ft-grp {
 		background-color:#00bae4;
-		padding:55px 0 0 55px; 
+		padding-top: 10px;
+    padding-bottom: 10px;
 		}
 
 	.well-sm {
@@ -101,7 +111,7 @@ body {
 		border-radius: 25px;
 	}
 
-	h1 {    
+	h1 {
 	    font-variant: small-caps;
 	    text-align: center;
 	    margin: 0 auto;
@@ -121,17 +131,17 @@ body {
 	    letter-spacing: 3px
 	}
 
-	.btn-purple { 	   
-	  background-color: #7A1994; 
+	.btn-purple {
+	  background-color: #7A1994;
 	  border-color: #400052;
-	  color:#fff; 
-	} 
- 
-	.btn-purple:hover, 
-	.btn-purple:focus { 
-	  color:#fff;	  
-	  background-color: #56006d; 	   
-	} 
+	  color:#fff;
+	}
+
+	.btn-purple:hover,
+	.btn-purple:focus {
+	  color:#fff;
+	  background-color: #56006d;
+	}
 
 /*----------PIN MAIN-----------------------*/
 
@@ -148,16 +158,16 @@ body {
 	    font-size: 16px;
 	}
 
-	.dial-btn, .escape-dial-btn, .submit-dial-btn, .check-btn {		
+	.dial-btn, .escape-dial-btn, .submit-dial-btn, .check-btn {
     	width: 100%;
     	margin: 0 auto;
     	display: block;
     	padding-top: 32px;
     	padding-bottom: 32px;
-    	margin-bottom: 8px;    	
+    	margin-bottom: 8px;
 	    font-weight: 600;
-	    font-size: 20px;	    
-	    border-radius:5px;   	   	
+	    font-size: 20px;
+	    border-radius:5px;
 	}
 
 	.container-pin {
@@ -185,11 +195,11 @@ body {
 	    margin-bottom: 0px;
 	    background: transparent;
 	    border: solid 0;
-	    margin-top: 7px;				
+	    margin-top: 7px;
 	}
 
 	.well-pin-input {
-		border-radius:5px;		
+		border-radius:5px;
 		background-color: #5cb85c;
 		margin-top: 3px;
 	}
@@ -209,70 +219,105 @@ body {
 	/*-----Check Main------*/
 
 	.well-check {
-		border-radius:5px;		
+		border-radius:5px;
 		background-color: #00bae4;
+		padding-top: 2px;
+    padding-bottom: 2px;
 		color:#fff;
+		margin-bottom:20px;
 	}
 
 	.greet-check {
-		font-size:23px;
-		font-variant:small-caps;
-	}
-
-	.check-out {
-		display:none;
+		font-size:18px;
+		margin-bottom: 0px;
+		text-align: center;
+		font-weight: 700;
 	}
 
 	.check-btn {
-		padding-top: 100px;
-    	padding-bottom: 100px;
-    	margin-top: 40px;
-    	margin-bottom: 40px;
+		padding-top: 55px;
+    	padding-bottom: 55px;
+    	margin-top: 0;
+    	margin-bottom: 20px;
+	}
+
+	.btn-return-to-main {
+		margin-top:18px;
+		padding-top: 20px;
+    padding-bottom: 20px;
+		font-size: 20px;
+	}
+
+	.check-header-name, .check-header-status {
+		 margin-top: 20px;
+		 color: #337ab7;
+		 font-weight: 800;
+		 text-align: center;
+		 font-size: 20px;
+	}
+
+	.check-header-status {
+		margin-top: 10px;
+		margin-bottom:15px;
+		color: #00bae4;
+		font-weight: 500;
+		font-size: 17px;
+	}
+
+	.check-status {
+		padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: 800;
+		background: #5cb85c;
+    color: #fff;
 	}
 
 @media (min-width:600px){
 	/*---PIN Responsive---*/
 	.hd-grp-pin {
 		padding-left: 0px;
-    	padding-top: 20px;
+		padding-top: 2px;
+		padding-bottom: 2px;
 	}
 }
 
 /*----------Mobile view (768px++)----------*/
 /*----------Index Resonsive----------------*/
-@media (min-width: 768px) {	
+@media (min-width: 768px) {
 
-	.footer {		
+	.footer {
     	position:fixed;
 	}
-	
+
 	.modal-dialog {
 		width: 77.5%;
 		margin-top: 230px;
-    	margin-right: 25px;	   
-	}	
+    	margin-right: 25px;
+	}
 
-	.alert-danger {	    
+	.alert-danger {
 	    padding-top: 15px;
     	padding-bottom: 15px;
 	}
 
 /*----------Groups/Students Responsive-----------*/
 
-	.ft-grp {		
+	.ft-grp {
     	position:fixed;
 	}
 
-	h1 {    
+	h1 {
     	font-size: 65px;
 	}
 
-	.gr-st-btn {		
+	.gr-st-btn {
     	padding-top: 55px;
-    	padding-bottom: 55px; 
+    	padding-bottom: 55px;
     	margin-bottom: 15px;
     	font-size: 30px;
-    	font-weight: 900;   	   	
+    	font-weight: 900;
 	}
 
 	.sm-left {
@@ -288,10 +333,14 @@ body {
 		padding-left:7px;
 	}
 
-	.gr-st-btn {	    
-	    font-size: 18px;	   
+	.gr-st-btn {
+	    font-size: 18px;
 	    letter-spacing: 0px;
-	    font-variant:normal;   
+	    font-variant:normal;
+	}
+
+	.header-p {
+    font-size: 19px;
 	}
 
 /*----------PIN Responsive-----------------------*/
@@ -303,11 +352,11 @@ body {
 	}
 	.dial-btn, .submit-dial-btn, .escape-dial-btn {
 		padding-top: 35px;
-    	padding-bottom: 35px; 
+    	padding-bottom: 35px;
     	margin-bottom: 15px;
     	font-size: 30px;
-    	font-weight: 900; 
-	}	
+    	font-weight: 900;
+	}
 }
 
 /*----------Tablet view (970px++)----------*/
@@ -315,88 +364,92 @@ body {
 
 	.container {
 		width: 95%;
-	}	
+	}
 
 	.form-horizontal {
-		margin-left: 30px;		
+		margin-left: 30px;
 	}
 
 	.top-position {
-		margin-top: 10.5%;	
+		margin-top: 10.5%;
 	} /*form-position*/
 
 	.image-top {
 		margin-top: 7%;
 	}
 
-	.alert-danger {    
+	.alert-danger {
 	    font-size: 20px;
 	    text-align: center;
-	} /*change*/		
+	} /*change*/
 
 	.modal-dialog {
 		width: 42%;
-		margin-top: 95px;    	
-    	margin-right: 43px;	    
+		margin-top: 95px;
+    	margin-right: 43px;
 	}
 
 /*---------PIN Responsive----------*/
-	.input-pin {    
-    	width: 30%;    
-	}	
+	.input-pin {
+    	width: 30%;
+	}
 }
 
 /*----------Desktop view (1200px++)----------*/
 
 @media (min-width: 1200px) {
 
-	.footer {		
+	.footer {
     	position:static;
-	}	
+	}
 
 	.vertical-align {
 	    display: flex;
 	    align-items: center;
-	} /*align to center in the row*/	
+	} /*align to center in the row*/
 
 	.form-horizontal {
-		margin-left: 30px;		
+		margin-left: 30px;
 	}
 
 	.top-position {
-		margin-top: 12%;	
+		margin-top: 12%;
 	} /*form-position*/
 
 	.image-top {
 		margin-top: 1.5%;
 	}
 
-	.alert-danger, .modal-body {    
+	.alert-danger, .modal-body {
 	    font-size: 24px;
 	    text-align: center;
 	    margin: 0 auto;
-	}		
+	}
 
 	.modal-dialog {
 		margin-right: 85px;
-	    margin-top: 115px;	    
+	    margin-top: 115px;
 	}
 
 /*--------Students Responsive-----------*/
 
 	.lg-b {
-			letter-spacing: inherit; 
+			letter-spacing: inherit;
 		}
 
 	.gr-st-btn {
-	    font-size: 15px;	   
+	    font-size: 15px;
+	}
+
+	.st-row {
+		padding:0;
 	}
 
 /*-------PIN Responsive--------*/
-	
+
 	.dial-btn, .submit-dial-btn, .escape-dial-btn {
 		padding-top: 25px;
-    	padding-bottom: 25px;     	
+    	padding-bottom: 25px;
 	}
 
 	.greet {
@@ -412,6 +465,5 @@ body {
 	.container {
     	width: 70%;
     	margin: 0 auto;
-	}	
+	}
 }
-

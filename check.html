@@ -15,33 +15,44 @@
   <link rel="icon" href="img/jabiru-logo.png">
 </head>
 <body>
-     <header class = "hd-grp">
-     </header>        
+  <header class = "hd-grp">
+    <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
+  </header>
     <div class = "container container-pin">
       <div class = "row">
         <div class = "col-xs-12">
+            <p class = "check-header-name">John Doe!</p>
+            <p class = "check-header-status">Your current status is <strong class = "check-status">At School</strong> </p>
+        </div>
+    </div>
+      <div class = "row">
+        <div class = "col-xs-12">
           <div class="well well-sm well-check">
-            <h1 class = "greet greet-check">Click the button below to change status. </h1>
+            <p class = "greet greet-check">Change Your Status: </p>
           </div>
-        </div>    
+        </div>
     </div>
     <div class = "row">
         <div class = "col-xs-12">
-          <div class = "col-xs-12 check-in"> 
-            <button type="button" class="btn btn-success btn-lg check-btn">Check-in</button>
+          <div class = "col-xs-12 check-in">
+            <button type="button" class="btn btn-success btn-lg check-btn">
+               <span class="glyphicon glyphicon-log-in"></span> At School</button>
          </div>
         </div>
         <div class = "col-xs-12">
-          <div class = "col-xs-12 check-out"> 
-            <button type="button" class="btn btn-danger btn-lg check-btn">Check-out</button>
+          <div class = "col-xs-12 check-out">
+            <button type="button" class="btn btn-danger btn-lg check-btn">
+              <span class="glyphicon glyphicon-log-out"></span> Out of School</button>
          </div>
-        </div>    
+        </div>
     </div>
     <div class = "row">
         <div class = "col-xs-12">
-         <button type="button" class="btn btn-primary btn-block">Return to Group choice screen</button>  
+         <button type="button" class="btn btn-primary btn-block btn-return-to-main">
+           <span class="glyphicon glyphicon-arrow-left"></span>
+            Return to Group Choice</button>
         </div>
-     </div>  
-  </div>  
+     </div>
+  </div>
 </body>
 </html>

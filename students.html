@@ -16,23 +16,22 @@
   <link rel="icon" href="img/jabiru-logo.png">
 </head>
 <body ng-controller = "students-controller">
-     <header>
-     </header>
+  <header class = "hd-grp">
+    <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
+  </header>
     <div class = "container">
       <div class = "row">
         <div class = "col-xs-12">
           <div class="well well-sm">
             <h1>Tell Us Who You Are </h1>
           </div>
-      </div>     
-      <div class = "row">        
-        <div class = "col-xs-12 col-sm-4 col-md-3 col-lg-2" ng-repeat = "student in records">
+      </div>
+      <div class = "row">
+        <div class = "col-xs-12 col-sm-4 col-md-3 col-lg-2 st-row" ng-repeat = "student in records">
             <button type="button" class="btn btn-{{student.class}} btn-lg gr-st-btn lg-b">{{student.name + ' ' + student.surname}}</button>
-        </div>      
+        </div>
     </div>
   </div>
-  </div>     
-    <div class = "footer"> 
-    </div>
-</body>
+  </div>
+  </body>
 </html>

@@ -10,7 +10,7 @@
     <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
   <link rel="stylesheet" type="text/css" href="css/login-style.css">
   <script src="js/angular-ui-bootstrap-modal.js"></script>
   <script src="js/login-form.js"></script>
@@ -19,8 +19,9 @@
   <link rel="icon" href="img/jabiru-logo.png">
 </head>
 <body ng-controller = "login-controller">
-  <header>
-  </header  
+  <header class = "hd-grp">
+    <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
+  </header>
   <!-- Modal -->
   <div modal = "ErrorAlert" ng-click="cancel()">
     <div class="modal-dialog">
@@ -28,8 +29,8 @@
        <div class="modal-content" >
           <div class="modal-body alert alert-danger">
             <strong>Error!</strong> You have entered wrong credentials.
-          </div>       
-        </div>      
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -37,21 +38,21 @@
     <div class="row vertical-align">
       <div class=" col-xs-12 col-sm-12 col-md-4 col-lg-4 image-top">
         <img class="img-responsive" src="img/jabiru_logo.jpg" alt="Jabiru Community College">
-      </div>      
-      <div class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 top-position">              
+      </div>
+      <div class=" col-xs-12 col-sm-12 col-md-8 col-lg-8 top-position">
         <form class="form-horizontal" action="/" id = "app-login">
           <div class="form-group e-mail">
             <label class="control-label col-xs-12 col-sm-2 col-md-3 col-lg-2" for="email">Email:</label>
             <div class="col-xs-12 col-sm-10 col-md-9 col-lg-10">
-              <input type="email" class="form-control input-lg" id="email" ng-model = "email" placeholder="Enter email"> 
-               <span class="glyphicon glyphicon-ok form-control-feedback e-glyph"></span>              
+              <input type="email" class="form-control input-lg" id="email" ng-model = "email" placeholder="Enter email">
+               <span class="glyphicon glyphicon-ok form-control-feedback e-glyph"></span>
             </div>
           </div>
           <div class="form-group pass">
             <label class="control-label col-xs-12 col-sm-2 col-md-3 col-lg-2" for="pwd">Password:</label>
             <div class="col-xs-12 col-sm-10 col-md-9 col-lg-10">
               <input type="password" class="form-control input-lg" id="pwd" ng-model = "password" placeholder="Enter password">
-              <span class="glyphicon glyphicon-ok form-control-feedback p-glyph"></span> 
+              <span class="glyphicon glyphicon-ok form-control-feedback p-glyph"></span>
             </div>
           </div>
           <div class="form-group">
@@ -66,10 +67,9 @@
               <button type="button" ng-click = "submit()" class="btn btn-success btn-lg btn-submit">Submit</button>
             </div>
           </div>
-        </form>        
+        </form>
       </div>
     </div>
-  </div>
-  <div class="footer"> </div>
+  </div>  
 </body>
 </html>
