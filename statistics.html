@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "en" ng-app = "students-list">
+<head>
+<title>JCC | Statistics</title>
+<!--Bootstrap links-->
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/login-style.css">
+  <script src="js/controller.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/jabiru-logo.png">
+</head>
+<body ng-controller = "students-controller">
+  <header class = "hd-grp">
+    <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
+  </header>
+  <div class = "container">
+    <div class = "row">
+      <div class = "statistics-col col-xs-1">
+        <p class = "table-header">№</p>
+      </div>
+      <div class = "statistics-col col-xs-4">
+        <p class = "table-header">Name</p>
+      </div>
+      <div class = "statistics-col col-xs-4">
+        <p class = "table-header">Surname</p>
+      </div>
+      <div class = "statistics-col col-xs-3">
+        <p class = "table-header">Status</p>
+      </div>
+    </div>
+      <div class = "row" ng-repeat = "student in records">
+        <div class = "student-col col-xs-1">
+          <p class = "table-item">{{student.number}}</p>
+        </div>
+        <div class = "student-col col-xs-4">
+          <p class = "table-item">{{student.name}}</p>
+        </div>
+        <div class = "student-col col-xs-4">
+          <p class = "table-item">{{student.surname}}</p>
+        </div>
+        <div class = "student-col col-xs-3">
+            <select class = "table-dropdown">
+              <option>{{student.status}}</option>
+              <option>AOF</option>
+              <option>SL</option>
+              <option>PS</option>
+            </select>
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
