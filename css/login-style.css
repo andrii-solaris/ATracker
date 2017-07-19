@@ -350,6 +350,46 @@ body {
     margin-bottom: 4px;
 	}
 
+	.choose-group-color {
+		font-size:inherit;
+	}
+
+	.color-label {
+		padding-top: 7px;
+		padding-bottom: 7px;
+	}
+
+	.no-padding-right {
+		padding-right:0;
+	}
+
+	.no-padding-both {
+		padding-right:0;
+		padding-left:0;
+	}
+
+	.no-padding-left {
+		padding-left: 8px;
+    padding-right: 8px;
+	}
+
+	.group-choice-row {
+		margin-top: 5px;
+	}
+
+	.row-divider {
+		margin-top: 0px;
+    margin-bottom: 5px;
+	}
+
+	.header-table {
+		 margin-top: 5px;
+	}
+
+	.footer-hr {
+		background-color:#000;
+	}
+
 @media (min-width:600px){
 	/*---PIN Responsive---*/
 	.hd-grp-pin {

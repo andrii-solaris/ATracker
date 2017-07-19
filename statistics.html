@@ -20,7 +20,41 @@
     <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
   </header>
   <div class = "container">
+    <div class = "row group-choice-row">
+      <div class = "col-xs-4 no-padding-right">
+        <label class = "color-label" for="select-color" >Select group:</label>
+      </div>
+        <div class = "col-xs-5 no-padding-both">
+        <select class = "form-control choose-group-color" id = "select-color">
+          <option>Orange group</option>
+          <option>Green group</option>
+          <option>Blue group</option>
+          <option>Purple group</option>
+          <option>Red group</option>
+        </select>
+      </div>
+      <div class = "col-xs-3 no-padding-left">
+        <button type="button" class="btn btn-primary">Choose</button>
+      </div>
+    </div>
+    <hr class  = "row-divider">
+    <div class = "row group-choice-row">
+      <div class = "col-xs-4 no-padding-right">
+        <label class = "color-label" for="find student" >Find Student:</label>
+      </div>
+        <div class = "col-xs-5 no-padding-both">
+        <input class = "form-control choose-group-color" type = "text" id = "find-student" placeholder = "Name or Surname">
+      </div>
+      <div class = "col-xs-3 no-padding-left">
+        <button type="button" class="btn btn-primary btn-block">Search</button>
+      </div>
+    </div>
     <div class = "row">
+        <div class = " col-xs-12">
+          <button type="button" class="btn btn-primary btn-block">Save Changes</button>
+        </div>
+    </div>
+    <div class = "row header-table">
       <div class = "statistics-col col-xs-1">
         <p class = "table-header">№</p>
       </div>
@@ -47,11 +81,21 @@
         <div class = "student-col col-xs-3">
             <select class = "table-dropdown">
               <option>{{student.status}}</option>
-              <option>AOF</option>
-              <option>SL</option>
-              <option>PS</option>
+              <option>AS</option>
+              <option>UA</option>
+              <option>OL</option>
+              <option>WE</option>
+              <option>MA</option>
+              <option>PC</option>
+              <option>DA</option>
             </select>
         </div>
+    </div>
+    <hr class = "footer-hr">
+    <div class = "row">
+      <div class = " col-xs-12">
+        <button type="button" class="btn btn-primary btn-block">Save Changes</button>
+      </div>
     </div>
   </div>
   </body>
