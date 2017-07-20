@@ -390,6 +390,15 @@ body {
 		background-color:#000;
 	}
 
+	.btn-bottom {
+		margin-bottom:10px;		
+	}
+
+	.btn-adjust {
+		padding-right:7px; 
+		padding-left:7px;
+	}
+
 @media (min-width:600px){
 	/*---PIN Responsive---*/
 	.hd-grp-pin {
@@ -493,13 +502,26 @@ body {
 /*-----Check Responsive-----*/
 
 	.container-check {
-			width: 80%;
+		width: 80%;
     	margin: 0 auto;
 	}
 
 	.modal-check {
 		margin-top: 100px;
-    margin-left: 85px;
+   		margin-left: 85px;
+	}
+
+/*------Statistics Responsive-------*/
+
+	.btn-adjust {
+		padding-right: 14px;
+    	padding-left: 14px;
+   		margin-left: 10%;
+	}
+
+	.btn-stat-submit {
+		padding-top: 26px;
+   		padding-bottom: 26px;
 	}
 }
 
