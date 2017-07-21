@@ -352,6 +352,7 @@ body {
 
 	.choose-group-color {
 		font-size:inherit;
+		margin-top: 0px;
 	}
 
 	.color-label {
@@ -369,8 +370,8 @@ body {
 	}
 
 	.no-padding-left {
-		padding-left: 8px;
-    padding-right: 8px;
+		padding-left: 0;    
+		padding-right: 15px;
 	}
 
 	.group-choice-row {
@@ -386,17 +387,34 @@ body {
 		 margin-top: 5px;
 	}
 
+	.row-no-margin {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
 	.footer-hr {
 		background-color:#000;
 	}
 
 	.btn-bottom {
-		margin-bottom:10px;		
+		margin-bottom:10px;
 	}
 
 	.btn-adjust {
-		padding-right:7px; 
+		padding-right:7px;
 		padding-left:7px;
+	}
+
+	.responsive-divide {
+		background: rgba(106, 107, 111, 0.1);
+    height: 1px;
+    margin-bottom: 5px;
+    border-top-width: 0px;
+    margin-top: 5px;
+	}
+
+	.controlling-btn {
+		margin-left:6px;
 	}
 
 @media (min-width:600px){
@@ -520,8 +538,8 @@ body {
 	}
 
 	.btn-stat-submit {
-		padding-top: 26px;
-   		padding-bottom: 26px;
+		padding-top: 28.5px;
+		padding-bottom: 28.5px;
 	}
 }
 

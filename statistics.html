@@ -20,7 +20,6 @@
     <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
   </header>
   <div class = "container">
-
     <div class = "row group-choice-row">
       <div class = "col-xs-4 col-sm-2 no-padding-right">
         <label class = "color-label" for="select-color" >Select group:</label>
@@ -35,20 +34,20 @@
           <option>Purple group</option>
           <option>Red group</option>
         </select>
-        <hr class  = "row-divider">        
-        <input class = "form-control choose-group-color" type = "text" id = "find-student" placeholder = "Name or Surname">
+        <hr class  = "row-divider responsive-divide">
+        <input class = "form-control choose-group-color" type = "text" id = "find-student" placeholder = "Name or Surname" ng-model = "SearchStudent">
       </div>
       <div class = "col-xs-3 col-sm-2 no-padding-left">
-        <button type="button" class="btn btn-warning btn-block">Choose</button>
-        <hr class  = "row-divider">
-        <button type="button" class="btn btn-warning btn-block">Search</button>
+        <button type="button" class="btn btn-warning btn-block controlling-btn">Choose</button>
+        <hr class  = "row-divider responsive-divide">
+        <button type="button" class="btn btn-warning btn-block controlling-btn">Search</button>
       </div>
       <div class = "col-xs-12 col-sm-3">
           <button type="button" class="btn btn-primary btn-block btn-stat-submit">Save Changes</button>
       </div>
-  </div>         
+  </div>
     </div>
-    <div class = "row header-table">
+    <div class = "row header-table row-no-margin">
       <div class = "statistics-col col-xs-1">
         <p class = "table-header">№</p>
       </div>
@@ -62,7 +61,7 @@
         <p class = "table-header">Status</p>
       </div>
     </div>
-      <div class = "row" ng-repeat = "student in records">
+      <div class = "row row-no-margin" ng-repeat = "student in records | filter: SearchStudent">
         <div class = "student-col col-xs-1">
           <p class = "table-item">{{student.number}}</p>
         </div>
@@ -82,11 +81,11 @@
               <option>MA</option>
               <option>PC</option>
               <option>DA</option>
-            </select>                         
+            </select>
         </div>
-        <hr class  = "row-divider col-xs-12">               
-    </div>   
-    <div class = "row">
+        <hr class  = "row-divider col-xs-10">
+    </div>
+    <div class = "row row-no-margin">
       <div class = " col-xs-12">
         <button type="button" class="btn btn-primary btn-block btn-bottom">Save Changes</button>
       </div>
