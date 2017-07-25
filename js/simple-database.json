@@ -1,5 +1,15 @@
- { 
+ {
  	"information": {
+
+      "user_credentials": {
+        "email":"student@gmail.com",
+        "password":"123456"
+      },
+
+      "teacher_credentials": {
+        "email":"teacher@gmail.com",
+        "password":"654321"
+      },
 
 	 	 "orange":[
 	 		{
@@ -17,44 +27,44 @@
 		 		"class":"success",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"3",
 		        "name":"John Q.",
-		    	"surname":"Doe", 
-				"class":"purple", 
+		    	"surname":"Doe",
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"4",
 				"name":"Mary",
-				"surname":"Major", 
-				"class":"info", 
+				"surname":"Major",
+				"class":"info",
 				"status":"UA"
 			},
-	          			
+
 	        {
 		        "number":"5",
 		    	"name":"Richard",
-				"surname":"Miles", 
-				"class":"warning", 
+				"surname":"Miles",
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"6",
 				"name":"Rudolf",
 				"surname":"Lingers",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"7",
 		    	"name":"Alan",
 				"surname":"Smithee",
-				"class":"primary", 
+				"class":"primary",
 				"status":"UA"
 			},
 
@@ -62,39 +72,39 @@
 		 		"number":"8",
 		 		"name":"Luther",
 		 		"surname":"Blissett",
-				"class":"success", 
+				"class":"success",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"9",
 		    	"name":"Tommy",
 				"surname":"Atkins",
-				"class":"purple", 
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"10",
 				"name":"Richmond",
 				"surname":"Way",
-				"class":"info", 
+				"class":"info",
 				"status":"UA"
 			},
-	           			
+
 			{
 				"number":"11",
 				"name":"Ron",
 				"surname":"Sanders",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"12",
 				"name":"Megan",
 				"surname":"Rothmans",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -102,7 +112,7 @@
 		        "number":"13",
 		    	"name":"Tom",
 				"surname":"Forest",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
 			},
 
@@ -113,20 +123,20 @@
 				"class":"danger",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"15",
 		    	"name":"Walter",
 				"surname":"Seems",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"16",
 				"name":"Peter",
 				"surname":"Yang",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -134,9 +144,9 @@
 				"number":"17",
 				"name":"Ruth",
 				"surname":"Watkins",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"18",
@@ -146,7 +156,7 @@
 		 		"status":"UA"
 	 		}
 		],
-	
+
 		"green": [
 	 		{
 	 			"number":"1",
@@ -163,44 +173,44 @@
 		 		"class":"success",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"3",
 		        "name":"Solana",
-		    	"surname":"Briggs", 
-				"class":"purple", 
+		    	"surname":"Briggs",
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"4",
 				"name":"Martella",
-				"surname":"Runs", 
-				"class":"info", 
+				"surname":"Runs",
+				"class":"info",
 				"status":"UA"
 			},
-	          			
+
 	        {
 		        "number":"5",
 		    	"name":"Edward",
-				"surname":"Stone", 
-				"class":"warning", 
+				"surname":"Stone",
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"6",
 				"name":"Selena",
 				"surname":"Rombart",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"7",
 		    	"name":"Rachel",
 				"surname":"Smarts",
-				"class":"primary", 
+				"class":"primary",
 				"status":"UA"
 			},
 
@@ -208,39 +218,39 @@
 		 		"number":"8",
 		 		"name":"Lomar",
 		 		"surname":"Berek",
-				"class":"success", 
+				"class":"success",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"9",
 		    	"name":"Scott",
 				"surname":"Finns",
-				"class":"purple", 
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"10",
 				"name":"Ien",
 				"surname":"Solano",
-				"class":"info", 
+				"class":"info",
 				"status":"UA"
 			},
-	           			
+
 			{
 				"number":"11",
 				"name":"Egbert",
 				"surname":"Rimms",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"12",
 				"name":"Peter",
 				"surname":"Stratford",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -248,7 +258,7 @@
 		        "number":"13",
 		    	"name":"Tim",
 				"surname":"Fields",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
 			},
 
@@ -259,20 +269,20 @@
 				"class":"danger",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"15",
 		    	"name":"Archibald",
 				"surname":"Ackerley",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"16",
 				"name":"Alfred",
 				"surname":"Yang",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -280,9 +290,9 @@
 				"number":"17",
 				"name":"Xavier",
 				"surname":"Artams",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"18",
@@ -292,7 +302,7 @@
 		 		"status":"UA"
 	 		}
 		],
-	
+
 	 	"blue": [
 	 		{
 	 			"number":"1",
@@ -309,44 +319,44 @@
 		 		"class":"success",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"3",
 		        "name":"Leah",
-		    	"surname":"Davies", 
-				"class":"purple", 
+		    	"surname":"Davies",
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"4",
 				"name":"Benjamin",
-				"surname":"Nolan", 
-				"class":"info", 
+				"surname":"Nolan",
+				"class":"info",
 				"status":"UA"
 			},
-	          			
+
 	        {
 		        "number":"5",
 		    	"name":"Brandon",
-				"surname":"Coleman", 
-				"class":"warning", 
+				"surname":"Coleman",
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"6",
 				"name":"Alan",
 				"surname":"Fisher",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"7",
 		    	"name":"Julia",
 				"surname":"Newman",
-				"class":"primary", 
+				"class":"primary",
 				"status":"UA"
 			},
 
@@ -354,39 +364,39 @@
 		 		"number":"8",
 		 		"name":"Paul",
 		 		"surname":"Parsons",
-				"class":"success", 
+				"class":"success",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"9",
 		    	"name":"Katherine",
 				"surname":"Davidson",
-				"class":"purple", 
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"10",
 				"name":"Angela",
 				"surname":"Ellison",
-				"class":"info", 
+				"class":"info",
 				"status":"UA"
 			},
-	           			
+
 			{
 				"number":"11",
 				"name":"Leonard",
 				"surname":"Sharp",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"12",
 				"name":"Grace",
 				"surname":"Hodges",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -394,7 +404,7 @@
 		        "number":"13",
 		    	"name":"Lucas",
 				"surname":"North",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
 			},
 
@@ -405,20 +415,20 @@
 				"class":"danger",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"15",
 		    	"name":"Caroline",
 				"surname":"Lambert",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"16",
 				"name":"Lucas",
 				"surname":"Terry",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -426,9 +436,9 @@
 				"number":"17",
 				"name":"Caroline",
 				"surname":"Mills",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"18",
@@ -455,44 +465,44 @@
 		 		"class":"success",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"3",
 		        "name":"Simon",
-		    	"surname":"Butler", 
-				"class":"purple", 
+		    	"surname":"Butler",
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"4",
 				"name":"Joshua",
-				"surname":"Lyman", 
-				"class":"info", 
+				"surname":"Lyman",
+				"class":"info",
 				"status":"UA"
 			},
-	          			
+
 	        {
 		        "number":"5",
 		    	"name":"Irene",
-				"surname":"Sanderson", 
-				"class":"warning", 
+				"surname":"Sanderson",
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"6",
 				"name":"Thomas",
 				"surname":"Payne",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"7",
 		    	"name":"Jonathan",
 				"surname":"Morgan",
-				"class":"primary", 
+				"class":"primary",
 				"status":"UA"
 			},
 
@@ -500,39 +510,39 @@
 		 		"number":"8",
 		 		"name":"Heather",
 		 		"surname":"Buckland",
-				"class":"success", 
+				"class":"success",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"9",
 		    	"name":"Madeleine",
 				"surname":"Welch",
-				"class":"purple", 
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"10",
 				"name":"Angela",
 				"surname":"Power",
-				"class":"info", 
+				"class":"info",
 				"status":"UA"
 			},
-	           			
+
 			{
 				"number":"11",
 				"name":"Lillian",
 				"surname":"Davies",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"12",
 				"name":"Felicity",
 				"surname":"Ferguson",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -540,7 +550,7 @@
 		        "number":"13",
 		    	"name":"Joshua",
 				"surname":"James",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
 			},
 
@@ -551,20 +561,20 @@
 				"class":"danger",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"15",
 		    	"name":"Anna",
 				"surname":"Martin",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"16",
 				"name":"Maria",
 				"surname":"Sanderson",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -572,9 +582,9 @@
 				"number":"17",
 				"name":"William",
 				"surname":"Marshall",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"18",
@@ -584,7 +594,7 @@
 		 		"status":"UA"
 	 		}
 		],
-	
+
 	 	"red": [
 	 		{
 	 			"number":"1",
@@ -601,44 +611,44 @@
 		 		"class":"success",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"3",
 		        "name":"Trevor",
-		    	"surname":"Stewart", 
-				"class":"purple", 
+		    	"surname":"Stewart",
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"4",
 				"name":"Amanda",
-				"surname":"Jones", 
-				"class":"info", 
+				"surname":"Jones",
+				"class":"info",
 				"status":"UA"
 			},
-	          			
+
 	        {
 		        "number":"5",
 		    	"name":"Amy",
-				"surname":"Hamilton", 
-				"class":"warning", 
+				"surname":"Hamilton",
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"6",
 				"name":"Ella",
 				"surname":"Greene",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
-	            		
+
 	        {
 		        "number":"7",
 		    	"name":"Zoe",
 				"surname":"Hart",
-				"class":"primary", 
+				"class":"primary",
 				"status":"UA"
 			},
 
@@ -646,39 +656,39 @@
 		 		"number":"8",
 		 		"name":"Ruth",
 		 		"surname":"Poole",
-				"class":"success", 
+				"class":"success",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"9",
 		    	"name":"Carl",
 				"surname":"Piper",
-				"class":"purple", 
+				"class":"purple",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"10",
 				"name":"Nathan",
 				"surname":"Carr",
-				"class":"info", 
+				"class":"info",
 				"status":"UA"
 			},
-	           			
+
 			{
 				"number":"11",
 				"name":"Una",
 				"surname":"Hodges",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"12",
 				"name":"Joan",
 				"surname":"Fisher",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -686,7 +696,7 @@
 		        "number":"13",
 		    	"name":"Colin",
 				"surname":"Ellison",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
 			},
 
@@ -697,20 +707,20 @@
 				"class":"danger",
 				"status":"UA"
 			},
-	           			
+
 	        {
 		        "number":"15",
 		    	"name":"Karen",
 				"surname":"Miller",
 				"class":"warning",
 		 		"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"16",
 				"name":"Victoria",
 				"surname":"Reid",
-				"class":"danger", 
+				"class":"danger",
 				"status":"UA"
 			},
 
@@ -718,9 +728,9 @@
 				"number":"17",
 				"name":"Wanda",
 				"surname":"Coleman",
-				"class":"warning", 
+				"class":"warning",
 				"status":"UA"
-			}, 
+			},
 
 			{
 				"number":"18",
