@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en" ng-app = "group-choice-app">
 <head>
 <title>JCC | Groups</title>
 <!--Bootstrap links-->
@@ -9,12 +9,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/login-style.css">
   <script src="js/login-form.js"></script>
+  <script src="js/controller.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/jabiru-logo.png">
 </head>
-<body>
+<body ng-controller = "group-choice-controller">
      <header class = "hd-grp">
        <p class = "header-p"> &copy;ATracker. Jabiru Community College </p>
      </header>
@@ -27,19 +29,19 @@
       </div>
       <div class = "row">
         <div class = "col-xs-12 col-sm-6 sm-left">
-          <a type="button" href = "students.html" class="btn btn-warning btn-lg gr-st-btn">ORANGE GROUP</a>
+          <a type="button" ng-click = "orange_submit()" class="btn btn-warning btn-lg gr-st-btn">ORANGE GROUP</a>
       </div>
       <div class = "col-xs-12 col-sm-6 sm-right">
-          <a type="button" href = "students.html" class="btn btn-success btn-lg gr-st-btn">GREEN GROUP</a>
+          <a type="button" ng-click = "green_submit()" class="btn btn-success btn-lg gr-st-btn">GREEN GROUP</a>
       </div>
       <div class = "col-xs-12 col-sm-6 sm-left">
-          <a type="button" href = "students.html" class="btn btn-primary btn-lg gr-st-btn">BLUE GROUP</a>
+          <a type="button" ng-click = "blue_submit()" class="btn btn-primary btn-lg gr-st-btn">BLUE GROUP</a>
       </div>
        <div class = "col-xs-12 col-sm-6 sm-right">
-          <a type="button" href = "students.html" class="btn btn-purple btn-lg gr-st-btn">PURPLE GROUP</a>
+          <a type="button" ng-click = "purple_submit()" class="btn btn-purple btn-lg gr-st-btn">PURPLE GROUP</a>
       </div>
       <div class = "col-xs-12 col-sm-offset-3 col-sm-6 sm-center">
-          <a type="button" href = "students.html" class="btn btn-danger btn-lg gr-st-btn">RED GROUP</a>
+          <a type="button" ng-click = "red_submit()" class="btn btn-danger btn-lg gr-st-btn">RED GROUP</a>
       </div>
     </div>
     </body>

@@ -1,147 +1,734 @@
  { 
- 	"information": [
- 		{
- 			"number":"1",
- 			"name":"John",
- 			"surname":"Doe",
- 			"class":"primary",
- 			"status":"UA"
- 		},
+ 	"information": {
 
- 		{
-	 		"number":"2",
-	 		"name":"Joe",
-	 		"surname":"Bloggs",
-	 		"class":"success",
-			"status":"UA"
-		},
-            		
-        {
-	        "number":"3",
-	        "name":"John Q.",
-	    	"surname":"Doe", 
-			"class":"purple", 
-			"status":"UA"
-		}, 
+	 	 "orange":[
+	 		{
+	 			"number":"1",
+	 			"name":"John",
+	 			"surname":"Doe",
+	 			"class":"primary",
+	 			"status":"UA"
+	 		},
 
-		{
-			"number":"4",
-			"name":"Mary",
-			"surname":"Major", 
-			"class":"info", 
-			"status":"UA"
-		},
-          			
-        {
-	        "number":"5",
-	    	"name":"Richard",
-			"surname":"Miles", 
-			"class":"warning", 
-			"status":"UA"
-		}, 
+	 		{
+		 		"number":"2",
+		 		"name":"Joe",
+		 		"surname":"Bloggs",
+		 		"class":"success",
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"3",
+		        "name":"John Q.",
+		    	"surname":"Doe", 
+				"class":"purple", 
+				"status":"UA"
+			}, 
 
-		{
-			"number":"6",
-			"name":"Rudolf",
-			"surname":"Lingers",
-			"class":"danger", 
-			"status":"UA"
-		},
-            		
-        {
-	        "number":"7",
-	    	"name":"Alan",
-			"surname":"Smithee",
-			"class":"primary", 
-			"status":"UA"
-		},
+			{
+				"number":"4",
+				"name":"Mary",
+				"surname":"Major", 
+				"class":"info", 
+				"status":"UA"
+			},
+	          			
+	        {
+		        "number":"5",
+		    	"name":"Richard",
+				"surname":"Miles", 
+				"class":"warning", 
+				"status":"UA"
+			}, 
 
- 		{
-	 		"number":"8",
-	 		"name":"Luther",
-	 		"surname":"Blissett",
-			"class":"success", 
-			"status":"UA"
-		},
-           			
-        {
-	        "number":"9",
-	    	"name":"Tommy",
-			"surname":"Atkins",
-			"class":"purple", 
-			"status":"UA"
-		}, 
+			{
+				"number":"6",
+				"name":"Rudolf",
+				"surname":"Lingers",
+				"class":"danger", 
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"7",
+		    	"name":"Alan",
+				"surname":"Smithee",
+				"class":"primary", 
+				"status":"UA"
+			},
 
-		{
-			"number":"10",
-			"name":"Richmond",
-			"surname":"Way",
-			"class":"info", 
-			"status":"UA"
-		},
-           			
-		{
-			"number":"11",
-			"name":"Ron",
-			"surname":"Sanders",
-			"class":"warning",
-	 		"status":"UA"
-		}, 
+	 		{
+		 		"number":"8",
+		 		"name":"Luther",
+		 		"surname":"Blissett",
+				"class":"success", 
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"9",
+		    	"name":"Tommy",
+				"surname":"Atkins",
+				"class":"purple", 
+				"status":"UA"
+			}, 
 
-		{
-			"number":"12",
-			"name":"Megan",
-			"surname":"Rothmans",
-			"class":"danger", 
-			"status":"UA"
-		},
+			{
+				"number":"10",
+				"name":"Richmond",
+				"surname":"Way",
+				"class":"info", 
+				"status":"UA"
+			},
+	           			
+			{
+				"number":"11",
+				"name":"Ron",
+				"surname":"Sanders",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
 
-        {
-	        "number":"13",
-	    	"name":"Tom",
-			"surname":"Forest",
-			"class":"warning", 
-			"status":"UA"
-		},
+			{
+				"number":"12",
+				"name":"Megan",
+				"surname":"Rothmans",
+				"class":"danger", 
+				"status":"UA"
+			},
 
- 		{
-	 		"number":"14",
-	 		"name":"Rachel",
-	 		"surname":"Stands",
-			"class":"danger",
-			"status":"UA"
-		},
-           			
-        {
-	        "number":"15",
-	    	"name":"Walter",
-			"surname":"Seems",
-			"class":"warning",
-	 		"status":"UA"
-		}, 
+	        {
+		        "number":"13",
+		    	"name":"Tom",
+				"surname":"Forest",
+				"class":"warning", 
+				"status":"UA"
+			},
 
-		{
-			"number":"16",
-			"name":"Peter",
-			"surname":"Yang",
-			"class":"danger", 
-			"status":"UA"
-		},
+	 		{
+		 		"number":"14",
+		 		"name":"Rachel",
+		 		"surname":"Stands",
+				"class":"danger",
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"15",
+		    	"name":"Walter",
+				"surname":"Seems",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
 
-		{
-			"number":"17",
-			"name":"Ruth",
-			"surname":"Watkins",
-			"class":"warning", 
-			"status":"UA"
-		}, 
+			{
+				"number":"16",
+				"name":"Peter",
+				"surname":"Yang",
+				"class":"danger", 
+				"status":"UA"
+			},
 
-		{
-			"number":"18",
-			"name":"Melvin",
-			"surname":"Peters",
-			"class":"danger",
-	 		"status":"UA"
- 		}
-	]
+			{
+				"number":"17",
+				"name":"Ruth",
+				"surname":"Watkins",
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"18",
+				"name":"Melvin",
+				"surname":"Peters",
+				"class":"danger",
+		 		"status":"UA"
+	 		}
+		],
+	
+		"green": [
+	 		{
+	 			"number":"1",
+	 			"name":"Peter",
+	 			"surname":"Parker",
+	 			"class":"primary",
+	 			"status":"UA"
+	 		},
+
+	 		{
+		 		"number":"2",
+		 		"name":"Ezequiel",
+		 		"surname":"Apps",
+		 		"class":"success",
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"3",
+		        "name":"Solana",
+		    	"surname":"Briggs", 
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"4",
+				"name":"Martella",
+				"surname":"Runs", 
+				"class":"info", 
+				"status":"UA"
+			},
+	          			
+	        {
+		        "number":"5",
+		    	"name":"Edward",
+				"surname":"Stone", 
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"6",
+				"name":"Selena",
+				"surname":"Rombart",
+				"class":"danger", 
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"7",
+		    	"name":"Rachel",
+				"surname":"Smarts",
+				"class":"primary", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"8",
+		 		"name":"Lomar",
+		 		"surname":"Berek",
+				"class":"success", 
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"9",
+		    	"name":"Scott",
+				"surname":"Finns",
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"10",
+				"name":"Ien",
+				"surname":"Solano",
+				"class":"info", 
+				"status":"UA"
+			},
+	           			
+			{
+				"number":"11",
+				"name":"Egbert",
+				"surname":"Rimms",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"12",
+				"name":"Peter",
+				"surname":"Stratford",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+	        {
+		        "number":"13",
+		    	"name":"Tim",
+				"surname":"Fields",
+				"class":"warning", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"14",
+		 		"name":"Rolana",
+		 		"surname":"Sorts",
+				"class":"danger",
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"15",
+		    	"name":"Archibald",
+				"surname":"Ackerley",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"16",
+				"name":"Alfred",
+				"surname":"Yang",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+			{
+				"number":"17",
+				"name":"Xavier",
+				"surname":"Artams",
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"18",
+				"name":"Alma",
+				"surname":"Valleys",
+				"class":"danger",
+		 		"status":"UA"
+	 		}
+		],
+	
+	 	"blue": [
+	 		{
+	 			"number":"1",
+	 			"name":"Jerric",
+	 			"surname":"Horseman",
+	 			"class":"primary",
+	 			"status":"UA"
+	 		},
+
+	 		{
+		 		"number":"2",
+		 		"name":"Mary",
+		 		"surname":"Robertson",
+		 		"class":"success",
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"3",
+		        "name":"Leah",
+		    	"surname":"Davies", 
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"4",
+				"name":"Benjamin",
+				"surname":"Nolan", 
+				"class":"info", 
+				"status":"UA"
+			},
+	          			
+	        {
+		        "number":"5",
+		    	"name":"Brandon",
+				"surname":"Coleman", 
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"6",
+				"name":"Alan",
+				"surname":"Fisher",
+				"class":"danger", 
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"7",
+		    	"name":"Julia",
+				"surname":"Newman",
+				"class":"primary", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"8",
+		 		"name":"Paul",
+		 		"surname":"Parsons",
+				"class":"success", 
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"9",
+		    	"name":"Katherine",
+				"surname":"Davidson",
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"10",
+				"name":"Angela",
+				"surname":"Ellison",
+				"class":"info", 
+				"status":"UA"
+			},
+	           			
+			{
+				"number":"11",
+				"name":"Leonard",
+				"surname":"Sharp",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"12",
+				"name":"Grace",
+				"surname":"Hodges",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+	        {
+		        "number":"13",
+		    	"name":"Lucas",
+				"surname":"North",
+				"class":"warning", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"14",
+		 		"name":"Ella",
+		 		"surname":"Lee",
+				"class":"danger",
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"15",
+		    	"name":"Caroline",
+				"surname":"Lambert",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"16",
+				"name":"Lucas",
+				"surname":"Terry",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+			{
+				"number":"17",
+				"name":"Caroline",
+				"surname":"Mills",
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"18",
+				"name":"Elizabeth",
+				"surname":"Wilson",
+				"class":"danger",
+		 		"status":"UA"
+	 		}
+		],
+
+	 	"purple": [
+	 		{
+	 			"number":"1",
+	 			"name":"Ryan",
+	 			"surname":"MacDonald",
+	 			"class":"primary",
+	 			"status":"UA"
+	 		},
+
+	 		{
+		 		"number":"2",
+		 		"name":"Emma",
+		 		"surname":"Arnold",
+		 		"class":"success",
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"3",
+		        "name":"Simon",
+		    	"surname":"Butler", 
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"4",
+				"name":"Joshua",
+				"surname":"Lyman", 
+				"class":"info", 
+				"status":"UA"
+			},
+	          			
+	        {
+		        "number":"5",
+		    	"name":"Irene",
+				"surname":"Sanderson", 
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"6",
+				"name":"Thomas",
+				"surname":"Payne",
+				"class":"danger", 
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"7",
+		    	"name":"Jonathan",
+				"surname":"Morgan",
+				"class":"primary", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"8",
+		 		"name":"Heather",
+		 		"surname":"Buckland",
+				"class":"success", 
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"9",
+		    	"name":"Madeleine",
+				"surname":"Welch",
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"10",
+				"name":"Angela",
+				"surname":"Power",
+				"class":"info", 
+				"status":"UA"
+			},
+	           			
+			{
+				"number":"11",
+				"name":"Lillian",
+				"surname":"Davies",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"12",
+				"name":"Felicity",
+				"surname":"Ferguson",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+	        {
+		        "number":"13",
+		    	"name":"Joshua",
+				"surname":"James",
+				"class":"warning", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"14",
+		 		"name":"Joan",
+		 		"surname":"Wilkins",
+				"class":"danger",
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"15",
+		    	"name":"Anna",
+				"surname":"Martin",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"16",
+				"name":"Maria",
+				"surname":"Sanderson",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+			{
+				"number":"17",
+				"name":"William",
+				"surname":"Marshall",
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"18",
+				"name":"Lillian",
+				"surname":"Reid",
+				"class":"danger",
+		 		"status":"UA"
+	 		}
+		],
+	
+	 	"red": [
+	 		{
+	 			"number":"1",
+	 			"name":"Diana",
+	 			"surname":"Mackay",
+	 			"class":"primary",
+	 			"status":"UA"
+	 		},
+
+	 		{
+		 		"number":"2",
+		 		"name":"Deirdre",
+		 		"surname":"Morrison",
+		 		"class":"success",
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"3",
+		        "name":"Trevor",
+		    	"surname":"Stewart", 
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"4",
+				"name":"Amanda",
+				"surname":"Jones", 
+				"class":"info", 
+				"status":"UA"
+			},
+	          			
+	        {
+		        "number":"5",
+		    	"name":"Amy",
+				"surname":"Hamilton", 
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"6",
+				"name":"Ella",
+				"surname":"Greene",
+				"class":"danger", 
+				"status":"UA"
+			},
+	            		
+	        {
+		        "number":"7",
+		    	"name":"Zoe",
+				"surname":"Hart",
+				"class":"primary", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"8",
+		 		"name":"Ruth",
+		 		"surname":"Poole",
+				"class":"success", 
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"9",
+		    	"name":"Carl",
+				"surname":"Piper",
+				"class":"purple", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"10",
+				"name":"Nathan",
+				"surname":"Carr",
+				"class":"info", 
+				"status":"UA"
+			},
+	           			
+			{
+				"number":"11",
+				"name":"Una",
+				"surname":"Hodges",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"12",
+				"name":"Joan",
+				"surname":"Fisher",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+	        {
+		        "number":"13",
+		    	"name":"Colin",
+				"surname":"Ellison",
+				"class":"warning", 
+				"status":"UA"
+			},
+
+	 		{
+		 		"number":"14",
+		 		"name":"Fiona",
+		 		"surname":"Slater",
+				"class":"danger",
+				"status":"UA"
+			},
+	           			
+	        {
+		        "number":"15",
+		    	"name":"Karen",
+				"surname":"Miller",
+				"class":"warning",
+		 		"status":"UA"
+			}, 
+
+			{
+				"number":"16",
+				"name":"Victoria",
+				"surname":"Reid",
+				"class":"danger", 
+				"status":"UA"
+			},
+
+			{
+				"number":"17",
+				"name":"Wanda",
+				"surname":"Coleman",
+				"class":"warning", 
+				"status":"UA"
+			}, 
+
+			{
+				"number":"18",
+				"name":"Joshua",
+				"surname":"Wright",
+				"class":"danger",
+		 		"status":"UA"
+	 		}
+		]
+	}
 }
